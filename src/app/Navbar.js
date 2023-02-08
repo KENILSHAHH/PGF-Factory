@@ -23,6 +23,7 @@ function Navbar() {
     const addr = await signer.getAddress();
     updateAddress(addr);
   }
+  //as
 
   function updateButton() {
     const ethereumButton = document.querySelector('.enableEthereumButton');
